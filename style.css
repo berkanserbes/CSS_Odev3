@@ -1,0 +1,124 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.top-panel ul li {
+    float: left;
+    margin-right: 1rem;
+}
+
+.top-panel ul {
+    list-style-type: none;
+    float: right;
+}
+
+.top-panel ul li a {
+    text-decoration: none;
+}
+
+.top-panel ul li a:hover {
+    text-decoration: underline;
+}
+
+.top-panel img:hover {
+    box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.39);
+   -webkit-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.39);
+   -moz-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.39);
+}
+
+/* Main */
+
+.main {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.search-area {
+    border: 0.5px grey solid;
+    border-radius: 90px;
+    width: 480px;
+    height: 40px;
+    position: relative;
+    right: 6rem;
+    top: 2rem;
+    opacity: 0.5; 
+}
+
+.search-area:hover,button:hover {
+   box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.39);
+   -webkit-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.39);
+   -moz-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.39);
+}
+
+.search-img {
+    position: relative;
+    top: 0.6rem;
+    left: 0.6rem;
+}
+
+input[type=text] {
+        width: 360px;
+        position: relative;
+        left: 2.5rem;
+        bottom: 1rem;
+        border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+        color: #5f6368;
+}
+
+.voice-img {
+    position: absolute;
+    top: 0.38rem;
+    left: 27.6rem;
+    opacity:unset;   
+}
+
+.button-area {
+    position: relative;
+    top: 3.8rem;   
+    right: 1rem; 
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    margin-right: 10px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    width: 99.4%;
+    background-color: #f2f2f2 ;
+    position: absolute;
+    bottom: 0;
+}
+
+footer ul li  {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.second-row ul li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+  
+}
